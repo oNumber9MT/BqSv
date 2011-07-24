@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BqSvTests' target in the 'BqSvTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
