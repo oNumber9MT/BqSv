@@ -24,6 +24,9 @@
 		4433F51B13DC04A000415565 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4433F51913DC04A000415565 /* InfoPlist.strings */; };
 		4433F51E13DC04A000415565 /* BqSvTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4433F51D13DC04A000415565 /* BqSvTests.h */; };
 		4433F52013DC04A000415565 /* BqSvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433F51F13DC04A000415565 /* BqSvTests.m */; };
+		44B21DF21400AF37002D2742 /* FlipsideView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B21DF11400AF37002D2742 /* FlipsideView2.xib */; };
+		44B21EC613DC518E002498BD /* icon_BqSv.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B21EC513DC518E002498BD /* icon_BqSv.png */; };
+		44DDDF7513FFF10400F87B5E /* FlipsideViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DDDF7313FFF10400F87B5E /* FlipsideViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,25 +44,29 @@
 		4433F4EC13DC04A000415565 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4433F4EE13DC04A000415565 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4433F4F013DC04A000415565 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4433F4F413DC04A000415565 /* BqSv-Info.plist */ = {isa = PBXFileReference; path = "BqSv-Info.plist"; sourceTree = "<group>"; };
+		4433F4F413DC04A000415565 /* BqSv-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BqSv-Info.plist"; sourceTree = "<group>"; };
 		4433F4F613DC04A000415565 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4433F4F813DC04A000415565 /* BqSv-Prefix.pch */ = {isa = PBXFileReference; path = "BqSv-Prefix.pch"; sourceTree = "<group>"; };
+		4433F4F813DC04A000415565 /* BqSv-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BqSv-Prefix.pch"; sourceTree = "<group>"; };
 		4433F4F913DC04A000415565 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4433F4FB13DC04A000415565 /* BqSvAppDelegate.h */ = {isa = PBXFileReference; path = BqSvAppDelegate.h; sourceTree = "<group>"; };
+		4433F4FB13DC04A000415565 /* BqSvAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BqSvAppDelegate.h; sourceTree = "<group>"; };
 		4433F4FC13DC04A000415565 /* BqSvAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BqSvAppDelegate.m; sourceTree = "<group>"; };
 		4433F4FF13DC04A000415565 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4433F50113DC04A000415565 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		4433F50113DC04A000415565 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4433F50213DC04A000415565 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4433F50413DC04A000415565 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		4433F50613DC04A000415565 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		4433F50613DC04A000415565 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		4433F50713DC04A000415565 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		4433F50913DC04A000415565 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
 		4433F51013DC04A000415565 /* BqSvTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BqSvTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4433F51813DC04A000415565 /* BqSvTests-Info.plist */ = {isa = PBXFileReference; path = "BqSvTests-Info.plist"; sourceTree = "<group>"; };
+		4433F51813DC04A000415565 /* BqSvTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BqSvTests-Info.plist"; sourceTree = "<group>"; };
 		4433F51A13DC04A000415565 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4433F51C13DC04A000415565 /* BqSvTests-Prefix.pch */ = {isa = PBXFileReference; path = "BqSvTests-Prefix.pch"; sourceTree = "<group>"; };
+		4433F51C13DC04A000415565 /* BqSvTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BqSvTests-Prefix.pch"; sourceTree = "<group>"; };
 		4433F51D13DC04A000415565 /* BqSvTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BqSvTests.h; sourceTree = "<group>"; };
 		4433F51F13DC04A000415565 /* BqSvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BqSvTests.m; sourceTree = "<group>"; };
+		44B21DF11400AF37002D2742 /* FlipsideView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipsideView2.xib; sourceTree = "<group>"; };
+		44B21EC513DC518E002498BD /* icon_BqSv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_BqSv.png; sourceTree = "<group>"; };
+		44DDDF7213FFF10400F87B5E /* FlipsideViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController2.h; sourceTree = "<group>"; };
+		44DDDF7313FFF10400F87B5E /* FlipsideViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +134,9 @@
 				4433F50613DC04A000415565 /* FlipsideViewController.h */,
 				4433F50713DC04A000415565 /* FlipsideViewController.m */,
 				4433F50913DC04A000415565 /* FlipsideView.xib */,
+				44DDDF7213FFF10400F87B5E /* FlipsideViewController2.h */,
+				44DDDF7313FFF10400F87B5E /* FlipsideViewController2.m */,
+				44B21DF11400AF37002D2742 /* FlipsideView2.xib */,
 				4433F4F313DC04A000415565 /* Supporting Files */,
 			);
 			path = BqSv;
@@ -135,6 +145,7 @@
 		4433F4F313DC04A000415565 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44B21EC513DC518E002498BD /* icon_BqSv.png */,
 				4433F4F413DC04A000415565 /* BqSv-Info.plist */,
 				4433F4F513DC04A000415565 /* InfoPlist.strings */,
 				4433F4F813DC04A000415565 /* BqSv-Prefix.pch */,
@@ -207,6 +218,9 @@
 /* Begin PBXProject section */
 		4433F4DF13DC049F00415565 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 4433F4E213DC049F00415565 /* Build configuration list for PBXProject "BqSv" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -234,6 +248,8 @@
 				4433F50013DC04A000415565 /* MainWindow.xib in Resources */,
 				4433F50513DC04A000415565 /* MainView.xib in Resources */,
 				4433F50A13DC04A000415565 /* FlipsideView.xib in Resources */,
+				44B21EC613DC518E002498BD /* icon_BqSv.png in Resources */,
+				44B21DF21400AF37002D2742 /* FlipsideView2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +289,7 @@
 				4433F4FD13DC04A000415565 /* BqSvAppDelegate.m in Sources */,
 				4433F50313DC04A000415565 /* MainViewController.m in Sources */,
 				4433F50813DC04A000415565 /* FlipsideViewController.m in Sources */,
+				44DDDF7513FFF10400F87B5E /* FlipsideViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +343,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				ENABLE_OPENMP_SUPPORT = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -335,6 +354,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -343,13 +364,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Masashi Takeshita";
+				ENABLE_OPENMP_SUPPORT = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "536BB233-C889-468F-B6DE-BFD0468A4D28";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -358,12 +381,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Masashi Takeshita";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Masashi Takeshita (4C9F6TYD5S)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BqSv/BqSv-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "BqSv/BqSv-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "536BB233-C889-468F-B6DE-BFD0468A4D28";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "801FDE04-0E6A-4817-BFCF-155B2298348F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,11 +400,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Masashi Takeshita";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Masashi Takeshita";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BqSv/BqSv-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "BqSv/BqSv-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "536BB233-C889-468F-B6DE-BFD0468A4D28";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "536BB233-C889-468F-B6DE-BFD0468A4D28";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +426,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BqSvTests/BqSvTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "BqSvTests/BqSvTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -415,6 +449,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BqSvTests/BqSvTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "BqSvTests/BqSvTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -445,6 +480,7 @@
 				4433F52513DC04A000415565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4433F52613DC04A000415565 /* Build configuration list for PBXNativeTarget "BqSvTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +489,7 @@
 				4433F52813DC04A000415565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
